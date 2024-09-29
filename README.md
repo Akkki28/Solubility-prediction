@@ -14,8 +14,6 @@ A solubility prediction tool that utilizes Graph Neural Networks (GNNs) to predi
 - **PyTorch**: A deep learning framework for building and training models.
 - **RDKit**: A collection of cheminformatics and machine learning tools for handling chemical data.
 - **PyG (PyTorch Geometric)**: A library for deep learning on irregularly structured data, specifically graph data.
-- **Pandas**: A data manipulation library for handling datasets efficiently.
-- **Seaborn**: A data visualization library for creating informative and attractive statistical graphics.
 
 ## Model Description
 
@@ -23,7 +21,7 @@ The Solubility Prediction Tool employs a Graph Neural Network (GNN) to predict t
 
 - **Input Representation**: The model takes a molecule's SMILES string as input, which is then converted into a graph structure that captures the molecular topology.
 - **Graph Neural Network Architecture**: The GNN processes the graph representation to learn the relationships between atoms and their connections, enabling the model to understand the molecular structure effectively.
-- **Prediction Output**: After training on a dataset of known solubility values, the model outputs a predicted solubility score for the input molecule.
+- **Prediction Output**: After training on a dataset of known solubility values, the model outputs the predicted solubility for the input molecule.
 
 ## Installation
 
